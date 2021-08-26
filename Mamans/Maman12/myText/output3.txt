@@ -1,0 +1,15 @@
+	 --Text Reader-- 
+To Proceed, Enter the Datatype to use: 
+ 1.Buffer 
+ 2.LinkedList 
+ > You chose LinkedList 
+Enter Text: 
+Output:hello hello hello hello hello hello hello hello hello hello
+ hello hello hello hello hello hello hello hello hello hell
+o hello hello hello hello hello hello hello hello hello hel
+lo hello hellohello hello hello hello hello hello hello hel
+lo hello hello hello hello hello hello hello hellohello hel
+lo hello hello hello hello hello hello hello hello hello he
+llo hello hello hello hellohello hello hello hello hello he
+llo hello hello hello hello hello hello hello hello hello h
+elloend

@@ -1,0 +1,2 @@
+.extern w
+.extern w

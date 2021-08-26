@@ -1,0 +1,3 @@
+Enter a value in Radians: 
+The entered value's sinus is (using custom function): -0.132351 
+The entered value's sinus is (using library function): -0.132352 

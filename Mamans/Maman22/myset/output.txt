@@ -1,0 +1,76 @@
+[+] Enter Command: print_set SETA 
+The set is empty 
+[+] Enter Command: print_set SETB 
+The set is empty 
+[+] Enter Command: print_set SETC 
+The set is empty 
+[+] Enter Command: print_set SETD 
+The set is empty 
+[+] Enter Command: print_set SETE 
+The set is empty 
+[+] Enter Command: print_set SETF 
+The set is empty 
+[+] Enter Command: read_set SETA, 45, 23, 6, 7, 4, 3, 75 ,45, 34, -1 
+[+] Enter Command: print_set SETA 
+=> {3, 4, 6, 7, 23, 34, 45, 75}
+[+] Enter Command: read_set SETB, 5, 4, 3, 2, 78, 45, 43, -1 
+[+] Enter Command: print_set SETB 
+=> {2, 3, 4, 5, 43, 45, 78}
+[+] Enter Command: read_set SETC,100,105,101,103,104,-1 
+[+] Enter Command: print_set SETC 
+=> {100, 101, 103, 104, 105}
+[+] Enter Command: read_set SETC,127,0,3,126,127,0,-1 
+[+] Enter Command: print_set SETC 
+=> {0, 3, 126, 127}
+[+] Enter Command: read_set SETC,-1 
+[+] Enter Command: print_set SETC 
+The set is empty 
+[+] Enter Command: read_set SETD, -1 
+[+] Enter Command: print_set SETD 
+The set is empty 
+[+] Enter Command: read_set 
+
+Undefined set name
+[+] Enter Command: SETC , 
+Undefined command name
+[+] Enter Command: 110 , 111, 112 , -1 
+Undefined command name
+[+] Enter Command: print_set SETC 
+The set is empty 
+[+] Enter Command: union_set SETA, SETB, SETD 
+[+] Enter Command: print_set SETD 
+=> {2, 3, 4, 5, 6, 7, 23, 34, 43, 45, 75, 78}
+[+] Enter Command: intersect_set SETA, SETB, SETE 
+[+] Enter Command: print_set SETE 
+=> {3, 4, 45}
+[+] Enter Command: sub_set SETA, SETB, SETF 
+[+] Enter Command: print_set SETF 
+=> {6, 7, 23, 34, 75}
+[+] Enter Command: symdiff_set SETA, SETB, SETF 
+[+] Enter Command: print_set SETF 
+=> {2, 5, 6, 7, 23, 34, 43, 75, 78}
+[+] Enter Command: intersect_set SETA, SETC, SETD 
+[+] Enter Command: print_set SETD 
+The set is empty 
+[+] Enter Command: union_set SETB, SETB, SETE 
+[+] Enter Command: print_set SETE 
+=> {2, 3, 4, 5, 43, 45, 78}
+[+] Enter Command: intersect_set SETB, SETA, SETB 
+[+] Enter Command: print_set SETB 
+The set is empty 
+[+] Enter Command: union_set SETA, SETC, SETC 
+[+] Enter Command: print_set SETC 
+=> {3, 4, 6, 7, 23, 34, 45, 75}
+[+] Enter Command: symdiff_set SETC, SETA, SETC 
+[+] Enter Command: print_set SETC 
+=> {3, 4, 6, 7, 23, 34, 45, 75}
+[+] Enter Command: sub_set SETC, SETC, SETC 
+[+] Enter Command: print_set SETC 
+The set is empty 
+[+] Enter Command: union_set   SETF    , SETC ,    SETF 
+Multiple consecutive commas
+[+] Enter Command: print_set SETF 
+=> {2, 5, 6, 7, 23, 34, 43, 75, 78}
+[+] Enter Command: stop 
+
+Exiting. Hope you enjoyed :)
