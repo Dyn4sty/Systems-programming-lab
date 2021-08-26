@@ -1,11 +1,14 @@
-# C Project: 12-bit Assembler
+# C Project: 32-bit Assembler
 
 # About
  The purpose of this project is to build an assembler for 32-bit instruction asssembly language, for an imaginary **32-bit** CPU and **2<sup>25</sup>** bits of memory size (about **4MB**).
- using 2's complement
- Supports ASCII
- 
-  For any issues, questions and ideas turn to the Issues tab.
+
+ - using 2's complement
+
+- Supports ASCII
+
+
+For any issues, questions and ideas turn to the Issues tab.
 
 # Source structure (Modules)
 
